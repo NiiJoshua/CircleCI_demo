@@ -16,6 +16,6 @@ jobs:
       - run:
         name: 'echo an env var that is part of the project'
         command:
-          echo CI_TRY
+          echo $CI_TRY
 
 
