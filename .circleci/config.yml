@@ -14,8 +14,14 @@ jobs:
     steps:
       - checkout
       - run:
+<<<<<<< HEAD
           name: 'echo an env var that is part of the project'
           command:
             echo CI_TRY
+=======
+          name: "echo an env var that is part of the project"
+          command:
+            echo $CI_TRY
+>>>>>>> eb998d2ce1485b859255ba5ce92e0b05402f5568
 
 
