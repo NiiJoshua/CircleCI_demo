@@ -9,9 +9,9 @@ jobs:
     steps:
       -  run: echo "hello world" > ~/output.txt
       - persist_to_workshpace:
-        root: ~/
-        paths:
-          - output.txt
+          root: ~/
+          paths:
+            - output.txt
 
   print_output_file:
     docker:
